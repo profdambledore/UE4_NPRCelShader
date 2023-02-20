@@ -6,6 +6,8 @@
 
 I have created a simple, customizable material shader that mimics the look of Genshin Impact's cel shader.  Currently, the shader features custom lighting based on a main character light and reflective hair shine that changes based on the camera's location.  Additionally, the user can choose to use a toon ramp texture instead of using custom variables.  Futher in development, I plan to add a matcap to any metallic material, using a channel mask to limit the amount of duplicate parent materials, and a post-processing material to add character outlines.
 
+![](img/6.PNG)
+
 Genshin Impact models are not included in the project, and are used for educational purposes.
 
 ## Blueprint - Custom Lighting
