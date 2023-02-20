@@ -10,17 +10,17 @@ Genshin Impact models are not included in the project, and are used for educatio
 
 ## Blueprint - Custom Lighting
 
-![]()
+![](img/1.png)
 
 Custom Lighting is achieved by first getting the location of the player light in the world.  In Genshin, charatcers are only lit by one main point light and are not effected by any lights in the world.  We then get the dot product between the light position and the vector normal of the material, inverse it then saturate.
 
-![]()
+![](img/2.png)
 
 Adding the shadow bands is easy.  When the pixel is in light, we show the characters texture of the model.  When below a changeable threshold, the texture colour is multiplied with the set band colour.  When below the second threshold, the texture colour is multiplied with the shadow colour.
 
 ## Blueprint - Hair Shine
 
-![]()
+![](img/3.png)
 
 Hair shine is achieved by 
 
